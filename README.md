@@ -6,8 +6,26 @@ This project consists in a decentralized application (DApp) of a supply chain so
 
 **Important**: The project was made with the versions below:
 
-- Truffle v5.4.0 (core: 5.4.0)
-- Solidity - 0.8.3 (solc-js)
+## Truffle v5.4.0 (core: 5.4.0)
+#### TRUFFLE OVERVIEW
+A world class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier. With Truffle, you get:
+
+- Built-in smart contract compilation, linking, deployment and binary management.
+- Automated contract testing for rapid development.
+- Scriptable, extensible deployment & migrations framework.
+- Network management for deploying to any number of public & private networks.
+- Package management with EthPM & NPM, using the ERC190 standard.
+- Interactive console for direct contract communication.
+- Configurable build pipeline with support for tight integration.
+- External script runner that executes scripts within a Truffle environment.
+
+## Web3.js - 1.3.4
+The web3.js library is a collection of modules that contain functionality for the ethereum ecosystem.
+
+Simply, it provides us with an API to use so we can easily work with the blockchain. Web3 works as a wrapper for JSON RPC to connect to a remote or local Ethereum node with either a HTTP or IPC connection. Web3 is basically a connection between the Ethereum blockchain and your smart contract.
+
+## Solidity - 0.8.3 (solc-js)
+Solidity is an object-oriented programming language for writing smart contracts. It is used for implementing smart contracts on various blockchain platforms, most notably, Ethereum.
 
 **Important**: The project didn't use any external **libraries** worth mentioning and also didn't use **IPFS** to host the frontend part decentralized as well.
 
